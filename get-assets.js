@@ -27,13 +27,5 @@ server.assets()
     console.log('--- effects ----')
     return txs.records[1].operations()
       .then(e => console.log(e, e._embedded.records))
-    // var tx = txs.records[1]
-    // var buf = Buffer.from(tx.envelope_xdr, 'base64')
-    // var buf2 = Buffer.from(tx.result_xdr, 'base64')
-    // var buf3 = Buffer.from(tx.result_meta_xdr, 'base64')
-    // console.log('--- xdr ----')
-    // console.log(buf.toString())
-    // console.log(buf2.toString())
-    // console.log(buf3.toString())
   })
 

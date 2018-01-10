@@ -1,6 +1,8 @@
 # Stellar Tests
 
-Some quick experiments with the basics of Stellar.
+Some quick experiments with the basics of Stellar. These scripts are meant as a very 
+basic guide into some of the fundamentals around how to interact with the Stellar
+network. Be sure to read the code in order to see what's going on.
 
 ## Creating Keys
 
